@@ -11,4 +11,5 @@ install:
 	composer install
 	php artisan key:generate
 	php artisan migrate --seed
-	npm install & npm run build
+	npm install
+	npm run build
