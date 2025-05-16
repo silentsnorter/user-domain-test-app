@@ -21,6 +21,8 @@ class PlanService
      */
     public function assignToUser(User $user, Plan $plan): void
     {
+        // TODO: Store plan change history for the user (e.g. for reporting or audit log).
+
         if ($user->plan_id === $plan->id) {
             throw new RuntimeException('You already have this plan.');
         }
