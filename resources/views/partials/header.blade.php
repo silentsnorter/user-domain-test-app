@@ -7,7 +7,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse d-md-flex justify-content-between align-items-center" id="navbarSupportedContent">
                 <a class="navbar-brand d-flex align-items-center gap-2" href="{{ url('/') }}">
                     <svg width="25px" height="25px" viewBox="-4 0 264 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
                         <g>
